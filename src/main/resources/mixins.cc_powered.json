@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "compatibilityLevel": "JAVA_17",
+  "package": "net.exec64.cc_powered.mixin",
+  "refmap": "mixins.cc_powered.refmap.json",
+  "mixins": [
+    "MixinAbstractComputerBlockEntity",
+    "MixinComputerBlockEntity",
+    "MixinServerComputer"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
