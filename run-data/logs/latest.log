@@ -1,0 +1,42 @@
+[24Apr2026 19:34:46.201] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgedatauserdev, --assetIndex, 5, --assetsDir, /home/angus/.gradle/caches/forge_gradle/assets, --gameDir, ., --fml.forgeVersion, 47.4.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --mod, cc_powered, --all, --output, /mnt/86683F8A683F77CF/Documents/Minecraft Mods/CC-Powered/src/generated/resources, --existing, /mnt/86683F8A683F77CF/Documents/Minecraft Mods/CC-Powered/src/main/resources, --mixin.config, mixins.cc_powered.json]
+[24Apr2026 19:34:46.206] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.18 by Ubuntu; OS Linux arch amd64 version 6.14.0-37-generic
+[24Apr2026 19:34:46.365] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Configuration file /mnt/86683F8A683F77CF/Documents/Minecraft Mods/CC-Powered/run-data/config/fml.toml is not correct. Correcting
+[24Apr2026 19:34:46.368] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowSkipGLVersions] was corrected from null to []
+[24Apr2026 19:34:46.369] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowLogHelpMessage] was corrected from null to true
+[24Apr2026 19:34:46.370] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowSquir] was corrected from null to false
+[24Apr2026 19:34:46.372] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowShowCPU] was corrected from null to false
+[24Apr2026 19:34:46.394] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgedatauserdev
+[24Apr2026 19:34:46.478] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/home/angus/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23116!/ Service=ModLauncher Env=CLIENT
+[24Apr2026 19:34:46.932] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/angus/.gradle/caches/modules-2/files-2.1/net.minecraftforge/javafmllanguage/1.20.1-47.4.0/f0c0b352173d0a378cbdcec9cfc4ba65899a721/javafmllanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[24Apr2026 19:34:46.935] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/angus/.gradle/caches/modules-2/files-2.1/net.minecraftforge/lowcodelanguage/1.20.1-47.4.0/e862740d8c84d08dbfedea412bef88fe42e727c5/lowcodelanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[24Apr2026 19:34:46.937] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/angus/.gradle/caches/modules-2/files-2.1/net.minecraftforge/mclanguage/1.20.1-47.4.0/5719b3a297a33f877ed5dde4cb4bd75c859096af/mclanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[24Apr2026 19:34:46.940] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/angus/.gradle/caches/modules-2/files-2.1/net.minecraftforge/fmlcore/1.20.1-47.4.0/235975dafa4309945b59c56b53f31dc5b65a6051/fmlcore-1.20.1-47.4.0.jar is missing mods.toml file
+[24Apr2026 19:34:47.207] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
+[24Apr2026 19:34:49.763] [main/WARN] [mixin/]: Compatibility level JAVA_17 specified by mixins.cc_powered.json is higher than the maximum level supported by this version of mixin (JAVA_13).
+[24Apr2026 19:34:49.764] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[24Apr2026 19:34:49.775] [main/WARN] [mixin/]: Compatibility level JAVA_16 specified by jade.mixins.json is higher than the maximum level supported by this version of mixin (JAVA_13).
+[24Apr2026 19:34:49.789] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatauserdev' with arguments [--gameDir, ., --assetsDir, /home/angus/.gradle/caches/forge_gradle/assets, --assetIndex, 5, --mod, cc_powered, --all, --output, /mnt/86683F8A683F77CF/Documents/Minecraft Mods/CC-Powered/src/generated/resources, --existing, /mnt/86683F8A683F77CF/Documents/Minecraft Mods/CC-Powered/src/main/resources]
+[24Apr2026 19:34:49.815] [main/INFO] [mixin/]: Attempting to load Fernflower decompiler (Threaded mode)
+[24Apr2026 19:34:49.816] [main/INFO] [mixin/]: Fernflower could not be loaded, exported classes will not be decompiled. NoClassDefFoundError: org/jetbrains/java/decompiler/main/extern/IResultSaver
+[24Apr2026 19:34:49.823] [main/INFO] [mixin/]: Preparing mixins for MixinEnvironment[DEFAULT]
+[24Apr2026 19:34:49.824] [main/INFO] [mixin/]: Selecting config mixins.cc_powered.json
+[24Apr2026 19:34:49.828] [main/WARN] [mixin/]: Reference map 'mixins.cc_powered.refmap.json' for mixins.cc_powered.json could not be read. If this is a development environment you can ignore this message
+[24Apr2026 19:34:49.829] [main/INFO] [mixin/]: Selecting config jade.mixins.json
+[24Apr2026 19:34:50.237] [main/INFO] [mixin/]: Remapping refMap jade.refmap.json using /mnt/86683F8A683F77CF/Documents/Minecraft Mods/CC-Powered/build/createSrgToMcp/output.srg
+[24Apr2026 19:34:50.238] [main/INFO] [mixin/]: Preparing mixins.cc_powered.json (5)
+[24Apr2026 19:34:50.325] [main/INFO] [mixin/]: Preparing jade.mixins.json (2)
+[24Apr2026 19:34:50.405] [main/INFO] [mixin/]: Prepared 7 mixins in 0.581 sec (83.0ms avg) (0ms load, 0ms transform, 0ms plugin)
+[24Apr2026 19:34:50.853] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [cc_powered]
+[24Apr2026 19:34:56.629] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.0, for MC 1.20.1 with MCP 20230612.114412
+[24Apr2026 19:34:56.630] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.0 Initialized
+[24Apr2026 19:34:56.676] [modloading-worker-0/INFO] [mixin/]: Mixing monitor.MixinMonitorBlockEntity from mixins.cc_powered.json into dan200.computercraft.shared.peripheral.monitor.MonitorBlockEntity
+[24Apr2026 19:34:56.688] [modloading-worker-0/INFO] [mixin/]: Renaming synthetic method lambda$getEnergyStorage$0()Lnet/minecraftforge/energy/IEnergyStorage; to mdee5adb$lambda$getEnergyStorage$0$0 in mixins.cc_powered.json:monitor.MixinMonitorBlockEntity
+[24Apr2026 19:34:56.835] [modloading-worker-0/INFO] [mixin/]: Mixing computer.MixinComputerBlockEntity from mixins.cc_powered.json into dan200.computercraft.shared.computer.blocks.ComputerBlockEntity
+[24Apr2026 19:34:56.844] [modloading-worker-0/INFO] [mixin/]: Mixing computer.MixinAbstractComputerBlockEntity from mixins.cc_powered.json into dan200.computercraft.shared.computer.blocks.AbstractComputerBlockEntity
+[24Apr2026 19:34:56.845] [modloading-worker-0/INFO] [mixin/]: Renaming synthetic method lambda$getEnergyStorage$0()Lnet/minecraftforge/energy/IEnergyStorage; to mdee5adb$lambda$getEnergyStorage$0$0 in mixins.cc_powered.json:computer.MixinAbstractComputerBlockEntity
+[24Apr2026 19:34:56.876] [modloading-worker-0/INFO] [mixin/]: Mixing turtle.MixinTurtleBlockEntity from mixins.cc_powered.json into dan200.computercraft.shared.turtle.blocks.TurtleBlockEntity
+[24Apr2026 19:34:56.899] [modloading-worker-0/INFO] [mixin/]: Mixing computer.MixinServerComputer from mixins.cc_powered.json into dan200.computercraft.shared.computer.core.ServerComputer
+[24Apr2026 19:35:00.451] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/home/angus/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.4.0_mapped_official_1.20.1/forge-1.20.1-47.4.0_mapped_official_1.20.1-recomp.jar%23181!/assets/.mcassetsroot' uses unexpected schema
+[24Apr2026 19:35:00.451] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/home/angus/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.4.0_mapped_official_1.20.1/forge-1.20.1-47.4.0_mapped_official_1.20.1-recomp.jar%23181!/data/.mcassetsroot' uses unexpected schema
+[24Apr2026 19:35:00.596] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 0 ms
+[24Apr2026 19:35:00.600] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 0, old count: 0, new count: 1, removed stale: 0, written: 0

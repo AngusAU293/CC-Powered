@@ -4,7 +4,7 @@ import net.minecraftforge.common.util.LazyOptional;
 import net.minecraftforge.energy.IEnergyStorage;
 
 public interface IEnergyHolder {
-    ComputerEnergyStorage getEnergyStorage();
+    CCEnergyStorage getEnergyStorage();
     LazyOptional<IEnergyStorage> getEnergyCapability();
     EnergyProfile getEnergyProfile();
 

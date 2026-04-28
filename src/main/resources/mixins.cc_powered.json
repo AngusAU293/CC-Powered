@@ -5,9 +5,11 @@
   "package": "net.exec64.cc_powered.mixin",
   "refmap": "mixins.cc_powered.refmap.json",
   "mixins": [
-    "MixinAbstractComputerBlockEntity",
-    "MixinComputerBlockEntity",
-    "MixinServerComputer"
+    "computer.MixinAbstractComputerBlockEntity",
+    "computer.MixinComputerBlockEntity",
+    "computer.MixinServerComputer",
+
+    "turtle.MixinTurtleBlockEntity"
   ],
   "injectors": {
     "defaultRequire": 1

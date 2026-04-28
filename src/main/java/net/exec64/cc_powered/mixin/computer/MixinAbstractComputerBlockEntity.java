@@ -1,9 +1,9 @@
-package net.exec64.cc_powered.mixin;
+package net.exec64.cc_powered.mixin.computer;
 
 import dan200.computercraft.shared.computer.blocks.AbstractComputerBlockEntity;
 import dan200.computercraft.shared.computer.core.ComputerFamily;
 import dan200.computercraft.shared.computer.core.ServerComputer;
-import net.exec64.cc_powered.energy.ComputerEnergyStorage;
+import net.exec64.cc_powered.energy.CCEnergyStorage;
 import net.exec64.cc_powered.energy.EnergyProfile;
 import net.exec64.cc_powered.energy.IEnergyHolder;
 import net.minecraft.core.BlockPos;
@@ -34,7 +34,7 @@ public abstract class MixinAbstractComputerBlockEntity implements IEnergyHolder 
     public abstract int getComputerID();
 
     @Unique
-    private ComputerEnergyStorage cc_powered$energyStorage;
+    private CCEnergyStorage cc_powered$energyStorage;
 
     @Unique
     private LazyOptional<IEnergyStorage> cc_powered$energyCapability;
@@ -45,9 +45,9 @@ public abstract class MixinAbstractComputerBlockEntity implements IEnergyHolder 
     }
 
     @Override
-    public ComputerEnergyStorage getEnergyStorage() {
+    public CCEnergyStorage getEnergyStorage() {
         if (cc_powered$energyStorage == null) {
-            cc_powered$energyStorage = new ComputerEnergyStorage(getEnergyProfile());
+            cc_powered$energyStorage = new CCEnergyStorage(getEnergyProfile());
             cc_powered$energyCapability = LazyOptional.of(() -> cc_powered$energyStorage);
         }
 

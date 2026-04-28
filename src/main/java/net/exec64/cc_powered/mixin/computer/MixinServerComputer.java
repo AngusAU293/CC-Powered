@@ -1,8 +1,8 @@
-package net.exec64.cc_powered.mixin;
+package net.exec64.cc_powered.mixin.computer;
 
 import dan200.computercraft.shared.computer.core.ComputerFamily;
 import dan200.computercraft.shared.computer.core.ServerComputer;
-import net.exec64.cc_powered.energy.ComputerEnergyStorage;
+import net.exec64.cc_powered.energy.CCEnergyStorage;
 import net.exec64.cc_powered.energy.EnergyProfile;
 import net.exec64.cc_powered.energy.IEnergyHolder;
 import net.minecraft.core.BlockPos;
@@ -32,7 +32,7 @@ public abstract class MixinServerComputer {
         BlockEntity blockEntity = getLevel().getExistingBlockEntity(getPosition());
 
         if (blockEntity instanceof IEnergyHolder) {
-            ComputerEnergyStorage energyStorage = ((IEnergyHolder) blockEntity).getEnergyStorage();
+            CCEnergyStorage energyStorage = ((IEnergyHolder) blockEntity).getEnergyStorage();
             EnergyProfile energyProfile = ((IEnergyHolder) blockEntity).getEnergyProfile();
 
             int extractedEnergy = energyStorage.extractEnergy(energyProfile.consumption, true);

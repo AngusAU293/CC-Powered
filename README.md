@@ -7,9 +7,11 @@ CC: Powered is an addon for the CC: Tweaked Minecraft Forge mod that adds the us
 Currently, this mod only adds energy consumption to computers, with peripherals being a future feature.
 Command computers don't consume energy nor do they store it, as they are creative items.
 
+You can install CC: Powered from [Modrinth](https://modrinth.com/mod/cc-powered) or [CurseForge](https://www.curseforge.com/minecraft/mc-mods/cc-powered).
+
 ## Usage
 
-In order to use this mod, you will need a mod like [Mekanism](https://www.curseforge.com/minecraft/mc-mods/mekanism),
+In order to use this mod, you will need a mod like [Mekanism](https://modrinth.com/mod/mekanism),
 as this mod does not provide any sources of Forge Energy.
 
 ## Configuration
@@ -19,7 +21,7 @@ In order to disable the energy requirement for a specific type of computer, just
 
 ## Contributing
 
-If you would like to help me out via contributing (thank you in advance), just fork this repository, make your changes, and create a pull request.
+If you would like to help me out via contributing (thank you in advance), just fork this repository, make your changes on the `dev` branch, and create a pull request.
 I will try to get around to any pull requests ASAP.
 
 I don't have any specific guidelines on how the code should be written, as long as it works and isn't too messy.

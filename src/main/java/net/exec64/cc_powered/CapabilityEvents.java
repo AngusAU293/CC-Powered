@@ -25,7 +25,7 @@ public class CapabilityEvents {
 
         if (!(blockEntity instanceof IEnergyHolder holder)) return;
 
-        ResourceLocation id = new ResourceLocation(CC_Powered.MOD_ID, "energy");
+        ResourceLocation id = ResourceLocation.fromNamespaceAndPath(CC_Powered.MOD_ID, "energy");
         if (event.getCapabilities().containsKey(id)) return;
 
         LazyOptional<IEnergyStorage> lazy = holder.getEnergyCapability();

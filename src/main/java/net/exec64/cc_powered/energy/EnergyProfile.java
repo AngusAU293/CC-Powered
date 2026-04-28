@@ -17,6 +17,13 @@ public enum EnergyProfile {
             0,
             0,
             0
+    ),
+
+
+    TURTLE (
+            0,
+            0,
+            0
     );
 
     public final int consumption;

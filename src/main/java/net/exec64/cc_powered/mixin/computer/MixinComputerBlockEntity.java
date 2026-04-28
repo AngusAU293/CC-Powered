@@ -1,4 +1,4 @@
-package net.exec64.cc_powered.mixin;
+package net.exec64.cc_powered.mixin.computer;
 
 import dan200.computercraft.shared.computer.blocks.AbstractComputerBlockEntity;
 import dan200.computercraft.shared.computer.blocks.ComputerBlockEntity;
