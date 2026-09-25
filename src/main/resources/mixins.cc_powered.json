@@ -9,6 +9,8 @@
     "computer.MixinComputerBlockEntity",
     "computer.MixinServerComputer",
 
+    "pocket.MixinPocketComputerItem",
+
     "turtle.MixinTurtleBlockEntity"
   ],
   "injectors": {

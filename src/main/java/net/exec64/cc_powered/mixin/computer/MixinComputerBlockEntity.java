@@ -14,6 +14,8 @@ public abstract class MixinComputerBlockEntity extends MixinAbstractComputerBloc
 
         return self.getFamily() == ComputerFamily.ADVANCED
                 ? EnergyProfile.ADVANCED_COMPUTER
-                : self.getFamily() == ComputerFamily.COMMAND ? EnergyProfile.COMMAND_COMPUTER : EnergyProfile.BASIC_COMPUTER;
+                : self.getFamily() == ComputerFamily.COMMAND
+                ? EnergyProfile.COMMAND_COMPUTER
+                : EnergyProfile.BASIC_COMPUTER;
     }
 }

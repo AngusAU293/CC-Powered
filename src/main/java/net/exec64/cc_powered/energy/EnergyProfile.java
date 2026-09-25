@@ -19,6 +19,16 @@ public enum EnergyProfile {
             0
     ),
 
+    BASIC_POCKET_COMPUTER (
+            Config.basic_pocket_computer_consumption.get(),
+            Config.basic_pocket_computer_capacity.get(),
+            Config.basic_pocket_computer_max_receive.get()
+    ),
+    ADVANCED_POCKET_COMPUTER (
+            Config.advanced_pocket_computer_consumption.get(),
+            Config.advanced_pocket_computer_capacity.get(),
+            Config.advanced_pocket_computer_max_receive.get()
+    ),
 
     TURTLE (
             0,

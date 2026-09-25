@@ -8,6 +8,7 @@ public class CCEnergyStorage extends EnergyStorage {
         super(profile.capacity, profile.maxReceive, profile.consumption, 0);
     }
 
+    @Override
     public CompoundTag serializeNBT() {
         CompoundTag tag = new CompoundTag();
         tag.putInt("Energy", this.energy);
